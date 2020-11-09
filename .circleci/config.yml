@@ -11,3 +11,8 @@ workflows:
     # Run the welcome/run job in its own container
     jobs:
       - welcome/run
+## Custom notifications
+notify:
+  webhooks:
+  # A list of hook, hashes, containing the URL field
+  - url: https://outlook.office.com/webhook/0d34befb-a5f4-4b81-a23b-a36180e5861b@daeb2ba5-eaf5-425f-8160-5bd66e05cbf3/CircleCI/686ed759e87047c1ac2fd8b137e192e2/f28de4c5-9516-4255-9630-869b73a0a084
